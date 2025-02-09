@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/index.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Rick and Morty</title>
+    
+  </head>
+  <body>
+  
+    <header>
+      <div class="nav">
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+          <div class="container-fluid d-flex justify-content-between align-items-center">
+            
+            <div class="flex-grow-1 d-flex justify-content-center">
+              <img src="./public/Rick-And-Morty-Simbolo.png" class="img-fluid" style="width: 150px;">
+            </div>
+            
+          
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://rickandmortyapi.com/">Link API Rick and Morty</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+  
+<div class="container mt-5 pt-5">
+  <div class="row">
+
+    <!-- Custom 1 (Lista) -->
+    <div class="col-3 mb-3">
+      <div class="container-custom1 p-3 ">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item" style="font-weight: bold;">Lista de Personagens:</li>
+          <li class="list-group-item">Rick Sanchez</li>
+          <li class="list-group-item">Morty Smith</li>
+          <li class="list-group-item">Beth Smith</li>
+          <li class="list-group-item">Jerry Smith</li>
+          <li class="list-group-item">Summer Smith</li>
+          <li class="list-group-item">Mr. Poopybutthole</li>
+          <li class="list-group-item">Birdperson</li>
+          <li class="list-group-item">Squanchy</li><li class="list-group-item">Evil Morty</li>
+        </ul>
+      </div>
+    </div>
+
+    
+    
+        <!-- Custom 2 (Imagem + Títulos) -->
+        <div class="col-6 mb-3">
+          <div class="container-custom2 p-3">
+            <!-- Imagem fixa -->
+            <img src="./public/rickandmorty_ep001_003_Morty_Falls_Down.jpg" 
+                 alt="Descrição da imagem" 
+                 class="img-fluid" 
+                 style="width: 800px; display: block; margin-bottom: 20px;">
+            
+            <!-- Títulos abaixo da imagem -->
+            <div>
+              <h1>Episódio Piloto!</h1>
+              <p>No episódio piloto de Rick and Morty, o excêntrico cientista Rick leva seu neto Morty em uma jornada cheia de aventuras e perigos em dimensões paralelas. Com um humor irreverente e situações imprevisíveis, o episódio apresenta a dinâmica única entre os dois personagens e dá o tom para o caos e as viagens malucas que virão. É uma introdução intrigante ao mundo de Rick e Morty, com ação, mistério e humor, que vai deixar qualquer um curioso para ver o que acontece a seguir.</p>
+              <a href="https://www.primevideo.com/-/pt/detail/Rick-and-Morty/0SMDKXVBGBGF7OGSUAI29WVN44">
+              <button type="button" class="btn btn-dark">Episódio 1</button>
+              </a>
+            </div>
+
+            <br>
+            <img src="/public/episodio2.jpg" 
+                 alt="Descrição da imagem" 
+                 class="img-fluid" 
+                 style="width: 800px; display: block; margin-bottom: 20px;">
+             <!-- Títulos abaixo da imagem -->
+             <div>
+              <h1>T1 EP.2 – Lawnmower Dog</h1>
+              <p>No episódio "Lawn Mower Dog", Rick leva Morty em uma aventura interdimensional enquanto Jerry e Beth tentam resolver seus próprios problemas em casa. A história é dividida em duas tramas paralelas que se entrelaçam de forma bastante absurda, como é comum na série.</p>
+              <a href="https://www.primevideo.com/-/pt/detail/Rick-and-Morty/0SMDKXVBGBGF7OGSUAI29WVN44">
+              <button type="button" class="btn btn-dark">Episódio 2</button>
+              </a>
+            </div>
+
+
+            <br>
+            <img src="/public/episodio3.jpg" 
+                 alt="Descrição da imagem" 
+                 class="img-fluid" 
+                 style="width: 800px; display: block; margin-bottom: 20px;">
+             <!-- Títulos abaixo da imagem -->
+             <div>
+              <h1>T1 EP.3 – Anatomy Park</h1>
+              <p>É Natal. Rick encolhe Morty e o injeta em um homem sem teto para salvar o Anatomy Park. Jerry tenta ter um Natal sem aparelhos eletrônicos, mas lamenta sua decisão quando seus pais lhe apresentam seu novo amigo.</p>
+              <a href="https://www.primevideo.com/-/pt/detail/Rick-and-Morty/0SMDKXVBGBGF7OGSUAI29WVN44">
+              <button type="button" class="btn btn-dark">Episódio 3</button>
+              </a>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Coluna 3 -->
+        <div class="col-3 mb-3">
+          <div class="container-custom3 p-3">
+            <div class="imagem1">
+              <img src="./public/promocao-do-mc-donalds-para-a-black-friday-1732899547063_v2_1x1.png" style="width: 200px;">
+            </div>
+            <br>
+            <div class="imagem2">
+              <img src="/public/kk8-178.jpg" style="width: 200px;">
+            </div>
+            <br>
+            <div class="imagem3">
+              <img src="/public/images.jpg" style="width: 200px;">
+            </div>
+          </div>
+        </div>
+    
+      </div>
+    </div>
+    
+
+  </div>
+</div>
+
+
+
+<script type="module" src="/src/main.jsx"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+  </body>
+</html>

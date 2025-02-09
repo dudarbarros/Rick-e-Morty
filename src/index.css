@@ -1,0 +1,16 @@
+.container-custom2 {
+  display: block;  /* Faz a imagem ocupar o espaço de forma isolada */
+  text-align: left; /* Alinha o texto à esquerda */
+}
+
+.container-custom2 img {
+  max-width: 100%;  /* A imagem ocupa a largura máxima, sem ultrapassar o espaço */
+  display: block;  /* Garante que a imagem seja tratada como bloco, e o texto fica abaixo dela */
+  margin-bottom: 20px;  /* Adiciona um espaçamento abaixo da imagem */
+  width: 100%;
+}
+
+.container-custom2 h1, .container-custom2 h3 {
+  word-wrap: break-word; /* Faz com que o texto quebre quando não houver espaço suficiente */
+  overflow-wrap: break-word; /* Força a quebra de palavras muito longas */
+}
